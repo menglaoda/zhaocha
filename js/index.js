@@ -315,8 +315,6 @@ window.onload=function(){
     	    diwuchu[0].style.top = 232 +"px";
     	    diwuchu[1].style.left = 30 +"px";
     	    diwuchu[1].style.top = 232 +"px";
-    	    butong();
-    	    startgame();
     	}
     	//第三关
     	if(dqguanka==3){
@@ -348,9 +346,7 @@ window.onload=function(){
 		    diwuchu[0].style.height= 80+"px";
 		    diwuchu[1].style.left = 410 +"px";
 		    diwuchu[1].style.top = 240 +"px";
-		    diwuchu[1].style.height= 80+"px";
-    	    butong();
-    	    startgame();    
+		    diwuchu[1].style.height= 80+"px"; 
     	}
     	//第四关
     	if(dqguanka==4){
@@ -387,8 +383,6 @@ window.onload=function(){
 		    diwuchu[1].style.left = 412 +"px";
 		    diwuchu[1].style.top = 292 +"px";
 		    diwuchu[1].style.height= 80+"px";
-    	    butong();
-    	    startgame();    
     	}
     	//第五关
     	if(dqguanka==5){
@@ -424,9 +418,7 @@ window.onload=function(){
 		    diwuchu[0].style.height= 50+"px";
 		    diwuchu[1].style.left = 336 +"px";
 		    diwuchu[1].style.top = 168 +"px";
-		    diwuchu[1].style.height= 50+"px";
-    	    butong();
-    	    startgame();    
+		    diwuchu[1].style.height= 50+"px";   
     	}
     	//第六关
     	if(dqguanka==6){
@@ -462,9 +454,7 @@ window.onload=function(){
 		    diwuchu[0].style.height= 40+"px";
 		    diwuchu[1].style.left = 228 +"px";
 		    diwuchu[1].style.top = 68 +"px";
-		    diwuchu[1].style.height= 40+"px";
-    	    butong();
-    	    startgame();    
+		    diwuchu[1].style.height= 40+"px"; 
     	}
     	//第七关
     	if(dqguanka==7){
@@ -500,9 +490,7 @@ window.onload=function(){
 		    diwuchu[0].style.height= 40+"px";
 		    diwuchu[1].style.left = 379 +"px";
 		    diwuchu[1].style.top = 171 +"px";
-		    diwuchu[1].style.height= 40+"px";
-    	    butong();
-    	    startgame();    
+		    diwuchu[1].style.height= 40+"px";  
     	}
     	//第八关
     	if(dqguanka==8){
@@ -538,9 +526,7 @@ window.onload=function(){
 		    diwuchu[0].style.height= 40+"px";
 		    diwuchu[1].style.left = 260 +"px";
 		    diwuchu[1].style.top = 243 +"px";
-		    diwuchu[1].style.height= 40+"px";
-    	    butong();
-    	    startgame();    
+		    diwuchu[1].style.height= 40+"px";  
     	}
     	//第九关
     	if(dqguanka==9){
@@ -576,9 +562,7 @@ window.onload=function(){
 		    diwuchu[0].style.height= 40+"px";
 		    diwuchu[1].style.left = 273 +"px";
 		    diwuchu[1].style.top = 250 +"px";
-		    diwuchu[1].style.height= 40+"px";
-    	    butong();
-    	    startgame();    
+		    diwuchu[1].style.height= 40+"px";  
     	}
     	//第十关
     	if(dqguanka==10){
@@ -619,9 +603,8 @@ window.onload=function(){
 		    diwuchu[1].style.top = 174 +"px";
 		    diwuchu[1].style.height= 50+"px";
 		    diwuchu[1].style.width= 50+"px";
-    	    butong();
-    	    startgame();    
     	}
-    }
-    
+		butong();
+	    startgame();  
+    }  
 }
